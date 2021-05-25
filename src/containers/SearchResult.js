@@ -11,7 +11,7 @@ const SearchResult = ({searchResult}) => {
     
     useEffect(()=> {
         setCombinedUsers([])
-        userList.map((id)=> {
+        userList.map((id)=> {return (
             axios.get('https://nextagram-api.herokuapp.com/api/v1/users/' + id)
             .then(result => {
                 setCombinedUsers(prevValue => {
@@ -21,7 +21,7 @@ const SearchResult = ({searchResult}) => {
             .catch(error=> {
                 console.log(error)
             })
-        })
+        )})
     }, [userList])
 
     
