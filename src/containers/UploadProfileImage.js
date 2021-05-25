@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, {useState} from 'react';
-import {Form, FormGroup, FormText, Button, Input , Label} from 'reactstrap'
-import { ToastContainer, toast } from 'react-toastify';
+import {Form, FormGroup,Button, Input , Label} from 'reactstrap'
+import { toast } from 'react-toastify';
 
 
 
@@ -62,7 +62,7 @@ function UploadMyImages({submitProfileImage}){
                 </Form>
             </div>
             <div className="display-profile-image-container">
-                {imageFile? <h3>Click upload if this is correct<img className="profile-image-check" src={displayImage} /></h3> : ""}
+                {imageFile? <h3>Click upload if this is correct<img className="profile-image-check" alt="profile-img" src={displayImage} /></h3> : ""}
             </div>
         </div>
     )

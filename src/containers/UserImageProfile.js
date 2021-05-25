@@ -1,5 +1,4 @@
 import React from 'react';
-import UserImage from './UserImage';
 
 function UserImageProfile(props){
     const images= props.images
@@ -11,7 +10,7 @@ function UserImageProfile(props){
                 {images.map((image)=> {
                     return (
                         <div className="col-lg-3">
-                            <img className="all-images" src={image} alt="Image"/>
+                            <img className="all-images" src={image} alt="user-img"/>
                         </div>
                     )
                 })}

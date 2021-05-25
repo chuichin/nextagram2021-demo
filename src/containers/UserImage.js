@@ -1,4 +1,3 @@
-import axios from 'axios'
 import React, {useState, useEffect} from 'react';
 import LoadingIndicator from '../components/LoadingIndicator';
 import ApiUserImages from "../containers/ApiUserImages"

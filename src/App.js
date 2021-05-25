@@ -3,14 +3,11 @@ import NavBar from './components/NavBar'
 import Home from "./pages/Home"
 import Users from './pages/Users'
 import UserProfile from "./pages/UserProfile"
-import {Route, Link, Redirect} from 'react-router-dom'
-import SignUpForm from './pages/SignUpForm'
+import {Route, Redirect} from 'react-router-dom'
 import Modal from "./pages/Modal";
-import LoginForm from './pages/LoginForm'
 import MyProfile from "./pages/MyProfile"
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import UploadMyImages from './containers/UploadMyImages'
 import UploadProfileImage from './containers/UploadProfileImage'
 import SearchResult from "./containers/SearchResult"
 import NoResult from "./containers/NoResult"

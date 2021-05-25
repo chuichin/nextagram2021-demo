@@ -14,7 +14,7 @@ function MyImages({ id}){
         .catch(error => {
             console.log('ERROR: ', error)
             })
-        }, [userImages])
+        }, [userImages, id])
 
     if (userImages.length === 0){
         return (
@@ -33,7 +33,7 @@ function MyImages({ id}){
                 {userImages.map((image)=> {
                     return (
                         <div className="col-lg-4">
-                            <img className="all-images" src={image} alt="Image"/>
+                            <img className="all-images" src={image} alt="user-images"/>
                         </div>
                     )
                 })}
