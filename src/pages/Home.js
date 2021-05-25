@@ -45,7 +45,7 @@ function Home(){
                 <p></p>
                 <p>This page is built with ReactJS for frontend and Python Flask for backend.</p>
                 <p>This page allows you to create an account. After signing up/login, you can up upload one profile image and other images for your account, search for existing users via search bar on top.</p>
-                <p>The frontend codes for this page is found <a href="https://google.com">here</a>, backend codes <a href="https://google.com">here</a> and the documentation for API <a href="https://google.com">here</a>.</p>
+                <p>The frontend codes for this page is found <a href="https://github.com/chuichin/nextagram2021-demo">here</a>, backend codes <a href="https://github.com/chuichin/nextagram2021-demo-api">here</a> and the documentation for API <a href="https://documenter.getpostman.com/view/15396902/TzXwEJ79">here</a>.</p>
             </div>
             
         </div>
