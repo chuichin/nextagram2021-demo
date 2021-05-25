@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-import { useHistory } from 'react-router-dom'
 import axios from 'axios'
-import { ToastContainer, toast } from 'react-toastify';
-import { Button, Form,  FormText, FormFeedback, Input, FormGroup, Label,  Container, Row, Col } from 'reactstrap';
+import {  toast } from 'react-toastify';
+import { Button, Form, Input, FormGroup, Label, Row, Col } from 'reactstrap';
 
 
 const LoginForm =({setLoggedIn}) => {

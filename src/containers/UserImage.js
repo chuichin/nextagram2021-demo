@@ -18,14 +18,14 @@ function UserImage(props){
 
     useEffect(()=> {
         ApiUserImages(props.id, UserImages, ImageLoading)
-    }, [])
+    }, [props.id])
 
     
 
     return (
         <div >
             <div className="row">
-                {isLoading? <LoadingIndicator/> : (images.length==0)? <div className='d-flex my-5'>This user yet to have any images.</div> : images.map(image => {
+                {isLoading? <LoadingIndicator/> : (images.length===0)? <div className='d-flex my-5'>This user yet to have any images.</div> : images.map(image => {
                     return (
                         <div className="userImage-container col-lg-4">
                             <img className="userImage" src={image} />

@@ -33,7 +33,7 @@ function UserProfile(){
     useEffect(()=> {
         ApiUserProfile(id, UserProfile, IsLoading)
         ApiUserImages(id, UserImages, ImageLoading)
-    }, [])
+    }, [id])
 
     if (isLoading){
         return <LoadingIndicator />
@@ -42,7 +42,7 @@ function UserProfile(){
     return (
         <div className="user-container">
             <div className="user-image-container">
-                <img className="profileImage" src={userProfile.profileImage}/>
+                <img className="profileImage" alt="user-profile" src={userProfile.profileImage}/>
             </div>
             <div className="user-name-container">
                 <h1>{userProfile.username}</h1>

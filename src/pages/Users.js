@@ -33,7 +33,7 @@ function Users(){
                         <div class="col-lg-3 py-3">
                             <div className="profileContainer">
                                 
-                                <img className="profileImage" src={user.profileImage}></img>
+                                <img className="profileImage" alt="profile-img" src={user.profileImage}></img>
                                 <h3>{user.username}</h3>
                                 <div>
                                     <Link to={`/users/${user.id}`} type="button" class="see-more-btn btn">See More..</Link>

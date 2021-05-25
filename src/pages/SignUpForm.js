@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import {toast} from 'react-toastify';
-import { Button, Form,  FormText, FormFeedback, Input, FormGroup, Label,  Container, Row, Col } from 'reactstrap';
-import { getByLabelText } from '@testing-library/dom';
+import { Button, Form, FormFeedback, Input, FormGroup, Label, Row, Col } from 'reactstrap';
 
 function SignUpForm({setLoggedIn}){
 

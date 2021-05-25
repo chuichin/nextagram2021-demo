@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, {useState} from 'react';
-import {Form, FormGroup, FormText, Button, Input , Label} from 'reactstrap'
+import {Form, FormGroup, Button, Input , Label} from 'reactstrap'
 import {toast} from 'react-toastify';
 import { useHistory } from "react-router-dom";
 

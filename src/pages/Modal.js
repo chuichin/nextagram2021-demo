@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import LoginForm from './LoginForm';
 import SignUpForm from './SignUpForm'
-import {Route, Link} from 'react-router-dom';
 import {Row, Col } from 'reactstrap';
 
 
