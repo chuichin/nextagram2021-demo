@@ -28,7 +28,7 @@ function UserImage(props){
                 {isLoading? <LoadingIndicator/> : (images.length===0)? <div className='d-flex my-5'>This user yet to have any images.</div> : images.map(image => {
                     return (
                         <div className="userImage-container col-lg-4">
-                            <img className="userImage" src={image} />
+                            <img className="userImage" alt="user-img" src={image} />
                         </div>
                     )})}                
             </div>
